@@ -1,0 +1,59 @@
+/* CSS Document */
+
+	.body{ width:100%; background:#f0efee;}
+	.header_body{width:1200px; height:60px; margin:0 auto;}
+	.logo,.master{float:left; height:40px; margin-top:10px; margin-left:40px;}
+	.master .hn-meun{ /**/display:none;}
+	.master{width:120px;}
+	.master ul{ display:none;}
+	.na_v{height:40px; float:right; margin-top:10px;}
+	.na_v ul{width:600px; height:40px; border-radius:30px; overflow:hidden;background: #3498DB; margin-right:40px;}
+	.na_v ul li{ float:left; width:100px; height:40px;}
+	.na_v ul li a{ display:block; width:100%; height:100%; text-align:center; line-height:40px; color: #fff;}
+	.na_v ul li a:hover{ background: #3755ad;text-decoration:none;}
+	.bgcolor-1 { background: #f0efee; }
+	.bgcolor-2 { background: #f9f9f9; }
+	.bgcolor-3 { background: #e8e8e8; }/*light grey*/
+	.bgcolor-4 { background: #2f3238; color: #fff; }/*Dark grey*/
+	.bgcolor-5 { background: #df6659; color: #521e18; }/*pink1*/
+	.bgcolor-6 { background: #2fa8ec; }/*sky blue*/
+	.bgcolor-7 { background: #d0d6d6; }/*White tea*/
+	.bgcolor-8 { background: #3d4444; color: #fff; }/*Dark grey2*/
+	.bgcolor-9 { background: #ef3f52; color: #fff;}/*pink2*/
+	.bgcolor-10{ background: #64448f; color: #fff;}/*Violet*/
+	.bgcolor-11{ background: #3755ad; color: #fff;}/*dark blue*/
+	.bgcolor-12{ background: #3498DB; color: #fff;}/*light blue*/
+	.main,.foot{ width:1200px; margin:0 auto;}
+	.main-left{width:790px; float:left; margin-right:10px;}
+	.main-page{ margin-top:10px; background:#FFF;}
+	.main-right{width:400px; float:left;}
+	.main-left .left-banner{width:100%; overflow:hidden;}
+	.left-art{width:100%; overflow:hidden; background:rgba(255,255,255,1.00);}
+	.art-con li{height:160px; width:100%; margin-bottom:10px;}
+	.art-title{ padding-left:10px;}
+	.left-art .art-title{color:#3498DB; border-bottom:2px solid rgba(243,127,82,1.00); padding-bottom:10px;}
+	.left-art-con{width:100%;}
+	.con-left{ padding-left:10px;}
+	.con-right{ padding-right:10px;}
+	.con-left,.con-right{ float:left;}
+	.con-left{ width:220px; margin-right:20px; height:100%;}
+	.con-right{ width:550px; height:100%;}
+	.con-right p{font-size:12px; color:#999;}
+	.con-right span{ font-size:12px; float:right; color:rgba(103,103,103,1.00);}
+	.pagein-right{ margin-right:30px; margin-left:520px;}
+	.right-intro{ background:rgba(255,255,255,1.00);margin-bottom:10px;}
+	.right-tuijian{ background:rgba(255,255,255,1.00); margin-bottom:10px; padding-bottom:10px;}
+	.right-intro h4{ padding-bottom:10px; border-bottom:2px solid rgba(22,22,22,1.00); padding-left:30px;color:rgba(243,127,82,1.00)}
+	.intro-img{ width:200px; height:200px; border-radius:100px; overflow:hidden; margin:0 auto;}
+	.right-intro .type-1,.right-intro .type-2,.right-intro .type-3,.right-intro .type-4{ position:relative; height:30px; line-height:30px; font-size:14px;}
+	.info-type,.type-info{ position:absolute;}
+	.info-type{right:75%;}
+	.type-info{left:25%;}/**/
+	.tuijian-title{color:rgba(243,127,82,1.00);}
+	.tuijian-con{padding-top:10px;}
+	.container .nav{width:380px; overflow:hidden;}
+	.tuijian-up{width:380px; overflow:hidden;}
+	.tuijian-con ul a li span{ float:right; display:inline-block; font-size:12px; line-height:20px;padding-right:10px; color:#999;}
+	.tuijian-con ul a li{height:20px; padding-left:10px;}
+	.foot{ height:30px; width:1200px; margin:0 auto; background:#939393;border-radius:90px;}
+	.foot p{ line-height:30px; text-align:center; width:100%; line-height:30px; color:#FFFFFF;}

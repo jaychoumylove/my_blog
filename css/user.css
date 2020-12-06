@@ -1,0 +1,77 @@
+/* CSS Document */
+.body{ width:100%; background:#f0efee;}
+	.header_body{width:1200px; height:60px; margin:0 auto;}
+	.na_v{height:40px; float:right; margin-top:10px;}
+	.logo,.master{float:left; height:40px; margin-top:10px; margin-left:40px;}
+	.master .hn-meun{ /**/display:none;}
+	.master{width:120px;}
+	.master ul{ display:none;}
+	.nv-link{ float:left; margin-right:10px;margin-top:10px;}
+	.nw_link{ width:120px; height:30px;background:#2fa8ec;  line-height:30px; color:#fff; text-align:center; border-radius:10px 0;}
+	.nw_link:hover{background:#3498DB;}
+	.nv-link ul{ width:120px;}
+	.nv-link ul .hover{ display:block;}
+	.nv-link ul li{ width:120px; height:30px; display:none;}
+	.nv-link ul li a{ background:#2fa8ec; display:inline-block; width:100%; height:100%; line-height:30px; color:#fff; text-align:center; border-radius:10px 0;}
+	.nv-link ul li a:hover{ background:#3498DB; text-decoration:none;}
+	.na_v ul{width:600px; height:40px; border-radius:30px; overflow:hidden;background: #3498DB; margin-right:40px;}
+	.na_v ul li{ float:left; width:100px; height:40px;}
+	.na_v ul li a{ display:block; width:100%; height:100%; text-align:center; line-height:40px; color: #fff;}
+	.na_v ul li a:hover{ background: #3755ad;text-decoration:none;}
+	.bgcolor-1 { background: #f0efee; }
+	.bgcolor-2 { background: #f9f9f9; }
+	.bgcolor-3 { background: #e8e8e8; }/*light grey*/
+	.bgcolor-4 { background: #2f3238; color: #fff; }/*Dark grey*/
+	.bgcolor-5 { background: #df6659; color: #521e18; }/*pink1*/
+	.bgcolor-6 { background: #2fa8ec; }/*sky blue*/
+	.bgcolor-7 { background: #d0d6d6; }/*White tea*/
+	.bgcolor-8 { background: #3d4444; color: #fff; }/*Dark grey2*/
+	.bgcolor-9 { background: #ef3f52; color: #fff;}/*pink2*/
+	.bgcolor-10{ background: #64448f; color: #fff;}/*Violet*/
+	.bgcolor-11{ background: #3755ad; color: #fff;}/*dark blue*/
+	.bgcolor-12{ background: #3498DB; color: #fff;}/*light blue*/
+	.main,.foot{ width:1200px; margin:0 auto;}
+	.main-left{width:790px; float:left; margin-right:10px;}
+	.main-page{ margin-top:10px; background:#FFF; border-bottom:2px solid rgba(243,127,82,1.00); padding-bottom:5px;padding-top:2px;}
+	.main-right{width:400px; float:left;}
+	.main-left .left-banner{width:100%; overflow:hidden;}
+	.left-info{ background:#FFFFFF; width:100%; height:auto; margin:0 auto;}
+	.left-info h3{ font-size:20px; padding-left:60px; margin-top:0px; padding-top:10px;}
+	.right-intro{ background:rgba(255,255,255,1.00);margin-bottom:10px;}
+	.right-tuijian{ background:rgba(255,255,255,1.00); margin-bottom:10px; padding-bottom:10px;}
+	.right-intro h4{ padding-bottom:10px; border-bottom:2px solid rgba(22,22,22,1.00); padding-left:30px;color:rgba(243,127,82,1.00)}
+	.intro-img{ width:200px; height:200px; border-radius:100px; overflow:hidden; margin:0 auto;}
+	.right-intro .type-1,.right-intro .type-2,.right-intro .type-3,.right-intro .type-4{ position:relative; height:30px; line-height:30px; font-size:14px;}
+	.info-type,.type-info{ position:absolute;}
+	.info-type{right:75%;}
+	.type-info{left:25%;}/**/
+	.tuijian-title{color:rgba(243,127,82,1.00);}
+	.tuijian-con{padding-top:10px;}
+	.container .nav{width:380px; overflow:hidden;}
+	.info-update{ width:90px; text-align:center; height:30px; line-height:30px; color:rgba(255,255,255,1.00); font-size:16px; background:rgba(251,100,102,1.00); border-radius:10px; float:right;}
+	.info-update:hover{ background:rgba(237,62,65,1.00);}
+	.update_info{width:100%; height:100%; margin:0 auto; text-align:center;position:fixed; left:0; top:0; background:rgba(128,128,128,0.33); /**/display:none;}
+	.update_info form{ width:400px; background:rgba(255,255,255,1.00); margin:100px auto 20px auto; height:350px;}
+	.update_info form h1{height:40px; line-height:40px; width:100%; color:#FFFFFF; background:#df6659; font-size:16px; font-weight:600; text-align:left; padding-left:80px;}
+	.update_info form ul{ margin:10px;/* border:1px solid #f73080;*/}
+	.update_info form ul li{ margin-bottom:10px; height:30px; font-size:14px; line-height:30px; text-align:left;}
+	.update_info form ul .sh_name{ margin-left:40px;}
+	.update_info form ul .sh_name input{ padding-left:10px; border:solid 1px #df6659;border-radius:5px; height:30px; line-height:30px; width:250px;}
+	.update_info form ul .sh_address{ vertical-align:middle; margin-left:10px;}
+	.update_info form ul .sh_address .info{ line-height:30px; height:30px; width:280px; float:right; margin-right:0px;}
+	.update_info form ul .sh_address .info #info_ads_chose select{border:solid 1px #f73080;border-radius:5px;height:30px; line-height:30px; background:url(../images/xl_z.png) right center no-repeat;appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+	.update_info form ul .sh_address .info #info_ads_chose #s_province{ width:60px;}
+	.update_info form ul .sh_address .info #info_ads_chose #s_city{ width:80px;}
+	.update_info form ul .sh_address .info #info_ads_chose #s_county{ width:100px;}
+	.update_info form ul .inp_address{ margin-left:20px;}
+	.update_info form ul .inp_address input{ padding-left:10px; border:solid 1px #df6659;border-radius:5px; height:30px; line-height:30px; width:330px;}
+	.update_info form ul .inp_pho{ margin-left:20px;}
+	.update_info form ul .inp_pho input{ padding-left:10px; border:solid 1px #df6659;border-radius:5px; height:30px; line-height:30px; width:260px;}
+	.update_info form ul .inp_ads_name{ margin-left:50px;}
+	.update_info form ul .inp_ads_name input{ padding-left:10px; border:solid 1px #df6659;border-radius:5px; height:30px; line-height:30px; width:260px;}
+	.update_info form ul .add_chose label{ position:absolute; right:40px;}
+	.update_info form ul .ads_sub{ width:100%; height:30px; line-height:30px;}
+	.update_info form ul .ads_sub .sure{ color:rgba(255,255,255,1.00); background:#df6659; border:none; width:90px; height:30px; margin-left:100px; cursor:pointer;}
+	.update_info form ul .ads_sub .false{ color:#626262; background:#D3D3D3; border:none; width:90px; height:30px; margin-left:20px; cursor:pointer;}
+	.foot{ height:30px; width:1200px; margin:0 auto; background:#939393;border-radius:90px;}
+	.foot p{height:30px; text-align:center; width:100%; line-height:30px; color:#FFFFFF;}

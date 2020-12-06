@@ -1,0 +1,30 @@
+/* CSS Document */
+.bg-body{ width:100%; background:url(../images/bg-005.png) center center no-repeat; height:500px; margin:0 auto;}
+	.login-box{ width:1200px; height:100%; position:relative; margin:0 auto;}
+	.login-title{font-size:18px; padding-left:40px; line-height:40px; height:40px; width:800px; border-bottom:2px solid rgba(243,127,82,1.00); margin:0 auto;background:rgba(255,255,255,0.84);position:absolute; right:200px; top:20px;}
+	.login-title span{ text-align:right; float:right; padding-right:60px;}
+	.login-box form{position:absolute; right:200px; top:60px; width:800px; background:rgba(255,255,255,0.84);}
+	.login-box form ul{/* border:1px solid #333;*/ margin:20px; text-align:left;} 
+	.login-box form ul li{ height:40px; line-height:40px;/* width:500px;*/ width:700px; margin-bottom:20px; margin-left:60px;}
+	.login-box form ul li input{ border-radius:0px;}
+	.login-box form ul li .t_info .ok{ color:#00FF00;}
+	.login-box form ul li .t_info .no{ color:#FF0000;}
+	.login-box form ul .sex{position:relative;}
+	.login-box form ul .sex span{ width:40px; height:100%; background:#ccc; display:inline-block;}
+	.login-box form ul .sex span img{padding-left:5px;padding-top:7px;vertical-align:middle; position:absolute; text-align:center;}
+	.login-box form ul .sex label{ vertical-align:middle; padding-bottom:35px; cursor:pointer;}
+	.login-box form ul .sex input{ margin-left:40px; height:40px; line-height:40px; width:40px;cursor:pointer;}
+	.login-box form ul .user,.login-box form ul .paw,.login-box form ul .phone,.login-box form ul .e_mail,.login-box form ul .verification_code{position:relative; background:#ccc;}
+	.login-box form ul .user img,.login-box form ul .paw img,.login-box form ul .phone img,.login-box form ul .e_mail img,.login-box form ul .verification_code img{ vertical-align:middle; position:absolute;padding-left:5px;padding-top:1px; }
+	.login-box form ul .user input,.login-box form ul .paw input,.login-box form ul .phone input,.login-box form ul .e_mail input{vertical-align:middle;height:40px; line-height:40px; margin-left:40px; padding-left:15px; width:325px; border:none; background:#F5F5F5;}
+	.login-box form ul .sure_register{ text-align:left; height:25px; line-height:25px; margin-left:80px;}
+	.login-box form ul .verification_code input{ padding-left:15px;vertical-align:middle;height:40px; line-height:40px; margin-left:40px; width:245px; border:none; background:#F5F5F5;}
+	.login-box form ul .verification_code .code{ position:absolute; right:340px; top:0px; width:50px;background:rgba(250,135,181,1.00); text-align:center; font-size:16px;}
+	.login-box form ul .verification_code .code img{ margin-left:-80px;}
+	.login-box form ul .button{ text-align:center;}
+	.login-box form ul .button input{ border:none; width:360px; height:100%;background:#85B6E9; color:#FFFFFF; font-size:18px; line-height:100%;}
+	.login-box form ul .button input:hover{background:#3498DB}
+	.login-box form ul li .t_info{ position:absolute; top:0; left:360px; background:#FFFFFF; padding-left:10px; width:340px; height:40px; line-height:40px; font-size:12px; color:#999999;}
+	.submit{ border-radius:7px; width:90px; height:30px; line-height:30px; text-align:center;}
+	.foot{ height:30px; width:100%; margin-top:80px; margin-left:auto; margin-right:auto; background:#939393;border-radius:0px;}
+	.foot p{height:30px; text-align:center; width:100%; line-height:30px; color:#FFFFFF;}
